@@ -1,10 +1,10 @@
 import React, { FC } from "react";
 
-type PillsProps = {
+type SubsectionPillsProps = {
   items: string[];
 };
 
-const Pills: FC<PillsProps> = ({ items }) => {
+const SubsectionPills: FC<SubsectionPillsProps> = ({ items }) => {
   return (
     <div className="my-3.2 last:pb-1.5">
       <ul className="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
@@ -21,4 +21,4 @@ const Pills: FC<PillsProps> = ({ items }) => {
   );
 };
 
-export default Pills;
+export default SubsectionPills;
