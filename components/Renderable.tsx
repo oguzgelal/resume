@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Renderable } from "../common/types";
+import { Renderable } from "../data/types";
 import Important from "./Important";
 import Link from "./Link";
 import SubsectionList from "./SubsectionList";

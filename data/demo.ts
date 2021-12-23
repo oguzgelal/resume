@@ -1,8 +1,8 @@
-import { Resume } from "./common/types";
+import { Resume } from "./types";
 
 const resume: Resume = {
-  name: "Oguz Gelal",
-  image: "/oguz.jpg",
+  name: "Marko Marković",
+  image: "/avatar.png",
   sections: [
     {
       title: "ABOUT ME",

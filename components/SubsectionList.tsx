@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Renderable as RenderableType } from "../common/types";
+import { Renderable as RenderableType } from "../data/types";
 import Renderable from "./Renderable";
 
 type SubsectionListProps = {
