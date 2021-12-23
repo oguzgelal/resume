@@ -3,6 +3,7 @@ import { Resume } from "./types";
 const resume: Resume = {
   name: "Marko Marković",
   image: "/avatar.png",
+  updated: "Dec 24, 2021",
   sections: [
     {
       title: "ABOUT ME",
