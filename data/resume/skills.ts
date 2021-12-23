@@ -5,6 +5,7 @@ const skills: Section = {
   subsections: [
     {
       title: "★★★★★",
+      description: "I am confident with these technologies",
       body: [
         {
           type: "pills",
@@ -13,39 +14,56 @@ const skills: Section = {
             "Typescript",
             "React",
             "React Native",
-            "Node.js",
             "Next js",
-            "Redux",
+            "Node.js",
             "HTML5",
             "CSS3",
-            "Front-End Development",
-            "Web Development",
             "Svelte",
             "SQL",
             "Postgresql",
             "NestJS",
+            "Redux",
+            "ExpressJS",
             "Git",
             "Graphql",
             "Testing",
+            "Jest",
+            "Mocha",
+            "Jasmine",
+            "ES6",
+            "Tailwind CSS",
           ],
         },
       ],
     },
     {
       title: "★★★★",
+      description:
+        "I am familiar with these technologies, but need some practice",
       body: [
         {
           type: "pills",
-          items: ["Python", "Java", "C++", "Backend Development"],
+          items: [
+            "Python",
+            "Java",
+            "Ruby",
+            "Ruby on Rails",
+            "Deno",
+            "Vue",
+            "Firebase",
+            "Meteor",
+          ],
         },
       ],
     },
     {
       title: "★★★",
+      description:
+        "I worked with these technologies in the past, but need some time to remember",
       body: [
         {
           type: "pills",
-          items: ["PHP", "Ruby", "Ruby on Rails", "AWS"],
+          items: ["PHP", "Scala", "Swift", "C", "C++", "Laravel", "AWS"],
         },
       ],
     },

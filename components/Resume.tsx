@@ -10,6 +10,7 @@ import SubsectionHeader from "./SubsectionHeader";
 import HeaderName from "./HeaderName";
 import HeaderImage from "./HeaderImage";
 import Renderable from "./Renderable";
+import LastUpdated from "./LastUpdated";
 import { FC } from "react";
 
 type ResumeProps = {
@@ -49,6 +50,7 @@ const Resume: FC<ResumeProps> = ({ resume }) => (
         />
       ))}
     </Column>
+    <LastUpdated>{resume.updated}</LastUpdated>
   </Wrapper>
 );
 
