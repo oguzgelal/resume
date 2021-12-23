@@ -19,16 +19,18 @@ export type Renderable =
   | Important
   | Link;
 
+export type Section = {
+  title: string;
+  subsections: {
+    title?: string;
+    titleHref?: string;
+    description?: string;
+    body?: Renderable[];
+  }[];
+};
+
 export type Resume = {
   name: string;
   image: string;
-  sections: {
-    title: string;
-    subsections: {
-      title?: string;
-      titleHref?: string;
-      description?: string;
-      body?: Renderable[];
-    }[];
-  }[];
+  sections: Section[];
 };
