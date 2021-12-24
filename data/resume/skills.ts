@@ -63,7 +63,7 @@ const skills: Section = {
       body: [
         {
           type: "pills",
-          items: ["PHP", "Scala", "Swift", "C", "C++", "Laravel", "AWS"],
+          items: ["PHP", "Laravel", "Scala", "Swift", "C", "C++", "AWS"],
         },
       ],
     },
