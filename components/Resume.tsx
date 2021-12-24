@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import { FC } from "react";
 import { Resume as ResumeType } from "../data/types";
 import Wrapper from "./Wrapper";
 import Column from "./Column";
@@ -10,8 +10,6 @@ import SubsectionHeader from "./SubsectionHeader";
 import HeaderName from "./HeaderName";
 import HeaderImage from "./HeaderImage";
 import Renderable from "./Renderable";
-import LastUpdated from "./LastUpdated";
-import { FC } from "react";
 
 type ResumeProps = {
   resume: ResumeType;
@@ -50,7 +48,6 @@ const Resume: FC<ResumeProps> = ({ resume }) => (
         />
       ))}
     </Column>
-    <LastUpdated>{resume.updated}</LastUpdated>
   </Wrapper>
 );
 

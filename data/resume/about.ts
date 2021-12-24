@@ -31,6 +31,14 @@ const about: Section = {
             "+90 539 306 09 12",
           ],
         },
+        {
+          type: "paragraph",
+          items: [
+            { type: "newline" },
+            { type: "important", text: "Last Update: " },
+            "Dec 24, 2021",
+          ],
+        },
       ],
     },
   ],
