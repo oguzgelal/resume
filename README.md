@@ -1,6 +1,6 @@
 ## About
 
-This is a resume template originates from [Universal Résumé](https://github.com/WebPraktikos/universal-resume), [componentized](https://github.com/oguzgelal/resume/tree/main/components) using React, [TypeScript-ified](https://github.com/oguzgelal/resume/blob/main/data/types.ts), bundled up as a Next.js app and renders the resume from a [config file](https://github.com/oguzgelal/resume/blob/main/data/demo.ts), making it easier to maintain/update/modify.
+This is a resume template originates from [Universal Résumé](https://github.com/WebPraktikos/universal-resume), [componentized](https://github.com/oguzgelal/resume/tree/main/components) using React, [TypeScript-ified](https://github.com/oguzgelal/resume/blob/main/data/types.ts), bundled up as a Next.js app and renders the resume from a [config file](https://github.com/oguzgelal/resume/blob/main/data/demo.ts), making it easier to maintain, update and tweak the design as needed.
 
 ### Demo
 
