@@ -10,6 +10,7 @@ import about from "./resume/about";
 const resume: Resume = {
   name: "Oguz Gelal",
   image: "/oguz.jpg",
+  title: "Senior Front-End Engineer",
   sections: [
     education,
     experiences,

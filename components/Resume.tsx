@@ -19,7 +19,7 @@ const Resume: FC<ResumeProps> = ({ resume }) => (
   <Wrapper>
     <Header>
       <HeaderImage src={resume.image} name={resume.name} />
-      <HeaderName>{resume.name}</HeaderName>
+      <HeaderName name={resume.name} title={resume.title} />
     </Header>
 
     <Column>

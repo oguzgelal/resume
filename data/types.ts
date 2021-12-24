@@ -32,5 +32,6 @@ export type Section = {
 export type Resume = {
   name: string;
   image: string;
+  title: string;
   sections: Section[];
 };
