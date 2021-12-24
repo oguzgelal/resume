@@ -5,7 +5,7 @@ const experiences: Section = {
   subsections: [
     {
       title: "Co-Founder and CTO at Flowla",
-      description: "Nov 2021 - Present | Delaware, USA",
+      description: "Nov 2021 - Present",
       body: [
         {
           type: "list",
