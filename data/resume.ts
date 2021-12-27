@@ -12,12 +12,12 @@ const resume: Resume = {
   image: "/oguz.jpg",
   title: "Senior Front-End Engineer",
   sections: [
+    about,
     education,
     experiences,
     projects,
     publications,
     skills,
-    about,
   ],
 };
 

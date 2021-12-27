@@ -35,6 +35,18 @@ const experiences: Section = {
       ],
     },
     {
+      title: "Software Engineer at Toptal",
+      description: "Oct 2015 - Active | Remote",
+      body: [
+        {
+          type: "list",
+          items: [
+            "Participating in Toptal community where only best 3% of the engineers get accepted",
+          ],
+        },
+      ],
+    },
+    {
       title: "Lead Front-End Engineer at MarketMuse",
       description: "Oct 2015 - Dec 2020 | Montreal, QC, Canada",
       body: [
@@ -46,18 +58,6 @@ const experiences: Section = {
             "Implement and maintain several backend services (Python, Javascript - Node, GraphQL)",
             "Implement and maintain internal libraries that powers several of our front-end and backend services (Python, Javascript)",
             "Contribute to the hiring process, interview and evaluate candidates",
-          ],
-        },
-      ],
-    },
-    {
-      title: "Software Engineer at Toptal",
-      description: "Oct 2015 - Ongoing | Remote",
-      body: [
-        {
-          type: "paragraph",
-          items: [
-            "Oguz is a software engineer and full-stack web developer, an expert in both back-end and front-end development. He has worked with a number of frameworks and tools. He always follows best practices in coding, providing clean, readable, organised, efficient, high-quality code",
           ],
         },
       ],

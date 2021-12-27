@@ -14,29 +14,52 @@ const about: Section = {
               href: "https://oguzgelal.com",
             },
             {
-              type: "link",
-              text: "github.com/oguzgelal",
-              href: "https://github.com/oguzgelal",
+              type: "paragraph",
+              items: [
+                { type: "important", text: "Github: " },
+                {
+                  type: "link",
+                  text: "github.com/oguzgelal",
+                  href: "https://github.com/oguzgelal",
+                },
+              ],
             },
             {
-              type: "link",
-              text: "linkedin.com/in/oguzgelal",
-              href: "https://www.linkedin.com/in/oguzgelal",
+              type: "paragraph",
+              items: [
+                { type: "important", text: "LinkedIn: " },
+                {
+                  type: "link",
+                  text: "linkedin.com/in/oguzgelal",
+                  href: "https://www.linkedin.com/in/oguzgelal",
+                },
+              ],
             },
             {
-              type: "link",
-              text: "o.gelal77@gmail.com",
-              href: "mailto:o.gelal77@gmail.com",
+              type: "paragraph",
+              items: [
+                { type: "important", text: "Email: " },
+                {
+                  type: "link",
+                  text: "o.gelal77@gmail.com",
+                  href: "mailto:o.gelal77@gmail.com",
+                },
+              ],
             },
-            "+90 539 306 09 12",
-          ],
-        },
-        {
-          type: "paragraph",
-          items: [
-            { type: "newline" },
-            { type: "important", text: "Last Update: " },
-            "Dec 24, 2021",
+            {
+              type: "paragraph",
+              items: [
+                { type: "important", text: "Phone: " },
+                "+90 539 306 09 12",
+              ],
+            },
+            {
+              type: "paragraph",
+              items: [
+                { type: "important", text: "Last Updated: " },
+                "Dec 27, 2021",
+              ],
+            },
           ],
         },
       ],
