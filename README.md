@@ -1,3 +1,6 @@
+![universal_resume](https://user-images.githubusercontent.com/2817993/147365722-3a88f8ce-4604-4ab0-983a-64473994cc30.png)
+
+
 ## About
 
 This resume template uses [Universal Résumé](https://github.com/WebPraktikos/universal-resume) with a few minor design changes, [componentized](https://github.com/oguzgelal/resume/tree/main/components) using React, [TypeScript-ified](https://github.com/oguzgelal/resume/blob/main/data/types.ts), bundled up as a Next.js app and renders the resume from a [config file](https://github.com/oguzgelal/resume/blob/main/data/demo.ts), making it easier to maintain, update and tweak the design as needed.
