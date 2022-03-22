@@ -35,18 +35,6 @@ const experiences: Section = {
       ],
     },
     {
-      title: "Software Engineer at Toptal",
-      description: "Oct 2015 - Active | Remote",
-      body: [
-        {
-          type: "list",
-          items: [
-            "Participating in Toptal community where only best 3% of the engineers get accepted",
-          ],
-        },
-      ],
-    },
-    {
       title: "Lead Front-End Engineer at MarketMuse",
       description: "Oct 2015 - Dec 2020 | Montreal, QC, Canada",
       body: [
