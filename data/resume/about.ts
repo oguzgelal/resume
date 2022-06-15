@@ -50,14 +50,14 @@ const about: Section = {
               type: "paragraph",
               items: [
                 { type: "important", text: "Phone: " },
-                "+90 539 306 09 12",
+                "+81 70 1500 1542",
               ],
             },
             {
               type: "paragraph",
               items: [
                 { type: "important", text: "Last Updated: " },
-                "Dec 27, 2021",
+                "Jun 15, 2022",
               ],
             },
           ],
